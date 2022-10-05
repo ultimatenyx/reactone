@@ -23,7 +23,7 @@
 - `live-server public` to run the contents on live server
 - File runs in browser after running above command.
 
-## Day 2: - 3.6
+## Day 2: - 3.8
 
 - `<script src="https://unpkg.com/react@16.0.0/umd/react.development.js"></script>`
 - `<script src="https://unpkg.com/react-dom@16.0.0/umd/react-dom.development.js"></script>`
