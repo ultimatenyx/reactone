@@ -36,3 +36,7 @@
 - `babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch`
 - If you delete node_modules - `yarn install`
 - Installed Babel ES6/ES7 extension for VSCode.
+
+## Day 4: 3.10
+
+- Arrow functions, this, arguments, let and const
