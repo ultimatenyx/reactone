@@ -40,3 +40,8 @@
 ## Day 4: 3.10
 
 - Arrow functions, this, arguments, let and const
+- `babel src/playground/es6-arrow-functions.js --out-file=public/scripts/app.js --presets=env,react --watch`
+
+## Day 5: 3.11
+
+- Counter
