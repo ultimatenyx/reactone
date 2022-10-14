@@ -45,3 +45,7 @@
 ## Day 5: 3.11
 
 - Counter
+
+## Day 6: 3.14
+
+- Synthetic Events
