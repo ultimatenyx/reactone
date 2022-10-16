@@ -49,3 +49,7 @@
 ## Day 6: 3.14
 
 - Synthetic Events
+
+## Day 7: 3.15
+
+-
