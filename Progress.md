@@ -52,4 +52,7 @@
 
 ## Day 7: 3.15
 
--
+## Day 8: 4.2
+
+- Visibility Toggle
+- `babel src/playground/build-it-visible.js --out-file=public/scripts/app.js --presets=env,react --watch`
