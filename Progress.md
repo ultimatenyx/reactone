@@ -56,3 +56,7 @@
 
 - Visibility Toggle
 - `babel src/playground/build-it-visible.js --out-file=public/scripts/app.js --presets=env,react --watch`
+
+## Day 9: 4.3
+
+- es6 classes
