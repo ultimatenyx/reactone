@@ -11,7 +11,32 @@ class Person{
     }
 
 }
-const me = new Person('Nikhil Chaughule',31);
-console.log(me.getDescription());
-const other = new Person();
-console.log(other.getDescription());
+class Student extends Person{
+    constructor(name,age,major){
+        super(name,age);
+        this.major=major;
+    }
+    hasMajor(){
+        return !!this.major;
+    }
+}
+class Traveler extends Person{
+    constructor(name,age,homeLocation){
+        super(name,age);
+        this.homeLocation=homeLocation;
+    }
+    hasHomeLocation(){
+        return !!this.homeLocation;
+    }
+    getGreeting(){
+        let greeting = super.getGreeting();
+        if(this.hasHomeLocation()){
+            greeting+=` I'm visiting from ${this.homeLocation}.`;
+        }
+        return greeting;
+    }
+}
+const me = new Traveler('Nikhil Chaughule',31,'Mumbai');
+console.log(me.getGreeting());
+const other = new Traveler();
+console.log(other.getGreeting());
