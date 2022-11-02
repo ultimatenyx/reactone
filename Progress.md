@@ -66,4 +66,8 @@
 
 - es6 classes part 2
 
--
+## Day 11: 4.6
+
+- jsx-indecision.js
+- `babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch`
+- Replaced jsx with React Components
