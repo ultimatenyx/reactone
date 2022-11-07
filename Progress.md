@@ -71,3 +71,7 @@
 - jsx-indecision.js
 - `babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch`
 - Replaced jsx with React Components
+
+## Day 12: 4.7
+
+- Component Props
