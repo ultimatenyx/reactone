@@ -75,3 +75,9 @@
 ## Day 12: 4.7
 
 - Component Props
+
+## Day 13: 4.10
+
+- `babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch`
+- Events & Methods
+- Method Binding
