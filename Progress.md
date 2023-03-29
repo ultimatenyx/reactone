@@ -31,7 +31,7 @@
   - `npm install -g babel-cli@6.24.1` -> last global installation
   - `babel --help` to check if installed properly
 - `yarn init` - to outline dependencies
-- `yarn add babel-preset-react@6.24.1 babel-preset-env@1.5.2` - To install babel presets
+- `yarn add babel-preset-react@6.24.1 babel-preset-env@1.5.2` - To install babel presets locally for the app
 - `babel src/app.js --out-file=public/scripts/app.js --presets=env,react` - To compile code from src/app.js to public/scripts/app.js
 - `babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch`
 - If you delete node_modules - `yarn install`
@@ -86,3 +86,9 @@
 
 - Counter Example
 - `babel src/playground/counter-example.js --out-file=public/scripts/app.js --presets=env,react --watch`
+
+---
+
+## New Start
+
+- Progress: 3.6 - Day 1
