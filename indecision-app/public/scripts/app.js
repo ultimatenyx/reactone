@@ -1,64 +1,32 @@
 "use strict";
 
-console.log('App.js is running!');
-var app = {
-    title: "Indecision App",
-    subtitle: "Put your life in the hands of a computer!"
+var toggle = false;
+var appRoot = document.getElementById('app');
+var onToggle = function onToggle() {
+    toggle = !toggle;
+    render();
 };
-var template = React.createElement(
-    "div",
-    null,
-    React.createElement(
-        "h1",
-        null,
-        app.title
-    ),
-    React.createElement(
-        "p",
-        null,
-        app.subtitle
-    ),
-    React.createElement(
-        "ol",
+var render = function render() {
+    var template = React.createElement(
+        "div",
         null,
         React.createElement(
-            "li",
+            "h1",
             null,
-            "Item One"
+            "Visibility Toggle"
         ),
         React.createElement(
-            "li",
+            "button",
+            { onClick: onToggle },
+            toggle ? "Hide" : "Show",
+            " Details"
+        ),
+        toggle && React.createElement(
+            "p",
             null,
-            "Item Two"
+            "Here is some hidden text!"
         )
-    )
-);
-var user = {
-    name: "Andrew",
-    age: 26,
-    location: "Philadelphia"
+    );
+    ReactDOM.render(template, appRoot);
 };
-var templateTwo = React.createElement(
-    "div",
-    null,
-    React.createElement(
-        "h1",
-        null,
-        "Name: ",
-        user.name
-    ),
-    React.createElement(
-        "p",
-        null,
-        "Age:",
-        user.age
-    ),
-    React.createElement(
-        "p",
-        null,
-        "Location: ",
-        user.location
-    )
-);
-var appRoot = document.getElementById('app');
-ReactDOM.render(template, appRoot);
+render();

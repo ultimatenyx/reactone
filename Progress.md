@@ -91,4 +91,5 @@
 
 ## New Start
 
-- Progress: 3.6 - Day 1
+- Day 1 - 3.7
+- Day 2 - 4.2
