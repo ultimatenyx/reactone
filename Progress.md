@@ -61,6 +61,7 @@
 
 - es6 classes
 - `babel src/playground/es6-classes-1.js --out-file=public/scripts/app.js --presets=env,react --watch`
+- Blueprint. backticks. template strings
 
 ## Day 10: 4.4
 
@@ -93,3 +94,4 @@
 
 - Day 1 - 3.7
 - Day 2 - 4.2
+- Day 3 - 4.4
