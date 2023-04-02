@@ -96,3 +96,18 @@
 - Day 2 - 4.2
 - Day 3 - 4.4
 - Day 4 - 4.17
+- Day 5 - 5.8
+
+## Day 5:
+
+- `babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch`
+- DefaultProps
+- Counter example with Default Props
+- Arrow Function Shorthand
+- Interesting function calls
+- Lifecycle Methods:
+  - componentDidMount - only available in class based components
+  - componentDidUpdate - when the components props or state change
+  - componentWillUnmount
+  - More here : https://legacy.reactjs.org/docs/state-and-lifecycle.html#adding-lifecycle-methods-to-a-class
+  - https://react.dev/reference/react/Component#adding-lifecycle-methods-to-a-class-component
