@@ -112,7 +112,7 @@
   - More here : https://legacy.reactjs.org/docs/state-and-lifecycle.html#adding-lifecycle-methods-to-a-class
   - https://react.dev/reference/react/Component#adding-lifecycle-methods-to-a-class-component
 
-## Day 6: 6.8
+## Day 6: 6.12
 
 - Webpack
 - Uninstall global modules for babel-cli and live-server as it is a bad practice to use global
@@ -135,3 +135,9 @@
 - loader in webpack.config.js
 - `yarn add babel-core@6.25.0 babel-loader@7.1.1`
 - .babelrc
+- Split into component files
+- Source maps
+- `yarn add webpack-dev-server@2.5.1`
+- `yarn run dev-server`
+- transform-class-properties plugin from babeljs.org
+- `yarn add babel-plugin-transform-class-properties@6.24.1`
