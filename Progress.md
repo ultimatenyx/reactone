@@ -111,3 +111,27 @@
   - componentWillUnmount
   - More here : https://legacy.reactjs.org/docs/state-and-lifecycle.html#adding-lifecycle-methods-to-a-class
   - https://react.dev/reference/react/Component#adding-lifecycle-methods-to-a-class-component
+
+## Day 6: 6.8
+
+- Webpack
+- Uninstall global modules for babel-cli and live-server as it is a bad practice to use global
+- `npm uninstall -g babel-cli live-server`
+- Install them locally - `yarn add live-server babel-cli@6.24.1`
+- Update package.json to run scripts locally
+- `yarn run serve`
+- `yarn run build`
+- `yarn add webpack@3.1.0`
+- https://webpack.js.org/concepts/entry-points/
+- https://nodejs.org/api/path.html
+- import statement
+- exports - default & named
+- Importing npm modules via Yarn -- install -> import -> use
+- `yarn add validator@8.0.0`
+- https://www.npmjs.com/package/validator
+- https://www.npmjs.com/package/react
+- https://www.npmjs.com/package/react-dom
+- `yarn add react@16.0.0 react-dom@16.0.0`
+- loader in webpack.config.js
+- `yarn add babel-core@6.25.0 babel-loader@7.1.1`
+- .babelrc
