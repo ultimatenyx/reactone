@@ -141,3 +141,10 @@
 - `yarn run dev-server`
 - transform-class-properties plugin from babeljs.org
 - `yarn add babel-plugin-transform-class-properties@6.24.1`
+
+## Day 7: 7.4
+
+- react modal
+- children prop
+- https://github.com/reactjs/react-modal
+- `yarn add react-modal@2.2.2`
