@@ -149,7 +149,7 @@
 - https://github.com/reactjs/react-modal
 - `yarn add react-modal@2.2.2`
 
-## Day 8: 8.5
+## Day 8: 8.11
 
 - npm style loader
 - `yarn add style-loader@0.18.2 css-loader@0.28.4`
@@ -163,3 +163,4 @@
 - Block Element Modifier(BEM) -> getBEM.com
 - normalize css to reset all browsers
 - `yarn add normalize.css@7.0.0`
+- https://sass-lang.com/documentation/values/functions
