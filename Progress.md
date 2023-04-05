@@ -148,3 +148,18 @@
 - children prop
 - https://github.com/reactjs/react-modal
 - `yarn add react-modal@2.2.2`
+
+## Day 8: 8.5
+
+- npm style loader
+- `yarn add style-loader@0.18.2 css-loader@0.28.4`
+- Update webpack.config.js
+- we will be using scss
+- `yarn add sass-loader@6.0.6 node-sass@4.5.3` - Throws an error for node-sass and does not work. https://stackoverflow.com/questions/60394291/error-node-modules-node-sass-command-failed?page=1&tab=modifieddesc#tab-top
+- Moved it to node-sass@7.0.0 where python 3.7 support was added by node-sass team
+- `yarn add sass-loader@6.0.6 node-sass@7.0.0`
+- rem
+- header partials
+- Block Element Modifier(BEM) -> getBEM.com
+- normalize css to reset all browsers
+- `yarn add normalize.css@7.0.0`
