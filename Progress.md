@@ -164,3 +164,12 @@
 - normalize css to reset all browsers
 - `yarn add normalize.css@7.0.0`
 - https://sass-lang.com/documentation/values/functions
+
+--- Starting with Part II ---
+
+## Day 9: 9.7
+
+- HTML5 history API
+- react-router
+- `yarn add react-router-dom@4.2.2`
+- Updated webpack.config.js
