@@ -1,6 +1,6 @@
 import React from "react";
-const EditExpensePage = () => (
-    <div>This is my Edit Expense component</div>
+const EditExpensePage = (props) => (
+    <div>This is my Edit Expense component with the id of {props.match.params.id}</div>
 );
 
 export default EditExpensePage;
