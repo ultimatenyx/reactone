@@ -177,3 +177,10 @@
 ## Day 10: 9.9
 
 - Portfolio site
+
+## Day 11: 10.5
+
+- Fundamentals with Redux
+- https://redux.js.org/
+- `yarn add redux@3.7.2`
+- Dispatching Actions
