@@ -184,3 +184,7 @@
 - https://redux.js.org/
 - `yarn add redux@3.7.2`
 - Dispatching Actions
+
+## Day 12: 10.7
+
+- ES6 destructuring
