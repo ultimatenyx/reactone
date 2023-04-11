@@ -185,6 +185,7 @@
 - `yarn add redux@3.7.2`
 - Dispatching Actions
 
-## Day 12: 10.7
+## Day 12: 10.8
 
 - ES6 destructuring
+- Action Generators
