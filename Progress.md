@@ -189,3 +189,10 @@
 
 - ES6 destructuring
 - Action Generators
+
+## Day 13: 10.11
+
+- Reducers
+- https://www.npmjs.com/package/uuid
+- `yarn add uuid@3.1.0`
+- Spread operator
