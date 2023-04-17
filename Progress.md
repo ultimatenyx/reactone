@@ -196,3 +196,9 @@
 - https://www.npmjs.com/package/uuid
 - `yarn add uuid@3.1.0`
 - Spread operator
+
+## Day 14: 11.1
+
+- Spread operator for objects
+- `yarn add babel-plugin-transform-object-rest-spread@6.23.0`
+- Update .babelrc
