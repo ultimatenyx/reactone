@@ -197,8 +197,9 @@
 - `yarn add uuid@3.1.0`
 - Spread operator
 
-## Day 14: 11.1
+## Day 14: 11.2
 
 - Spread operator for objects
 - `yarn add babel-plugin-transform-object-rest-spread@6.23.0`
 - Update .babelrc
+- Split into separate files
