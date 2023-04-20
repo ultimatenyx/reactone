@@ -203,3 +203,7 @@
 - `yarn add babel-plugin-transform-object-rest-spread@6.23.0`
 - Update .babelrc
 - Split into separate files
+
+## Day 15: 11.3
+
+- Higher Order Components
