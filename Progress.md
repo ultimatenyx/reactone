@@ -204,6 +204,9 @@
 - Update .babelrc
 - Split into separate files
 
-## Day 15: 11.3
+## Day 15: 11.5
 
 - Higher Order Components
+- Install the react redux library
+- `yarn add react-redux@5.0.5`
+- Provider, Connect
