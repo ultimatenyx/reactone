@@ -1,5 +1,9 @@
 import React from "react";
-const AddExpensePage = () => (
-    <div>This is my Add Expense component</div>
-);
+
+const AddExpensePage = () => {
+    return (
+        <div>This is a AddExpensePage</div>
+    )
+}
+
 export default AddExpensePage;

@@ -210,3 +210,12 @@
 - Install the react redux library
 - `yarn add react-redux@5.0.5`
 - Provider, Connect
+
+
+----------------------------------------------------
+# Reboot - Starting part 2 again
+
+Day 1: 
+- `yarn run dev-server`
+- `yarn add react-router-dom@4.2.2`
+- Completed Module 9

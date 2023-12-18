@@ -1,6 +1,9 @@
 import React from "react";
 
-const HelpPage = () => (
-    <div>This is my Help component</div>
-);
+const HelpPage = () => {
+    return (
+        <div>This is a Help Page</div>
+    )
+}
+
 export default HelpPage;
