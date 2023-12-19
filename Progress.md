@@ -219,3 +219,7 @@ Day 1:
 - `yarn run dev-server`
 - `yarn add react-router-dom@4.2.2`
 - Completed Module 9
+
+Day2: Redux 10.8
+- `yarn add redux@3.7.2`
+
