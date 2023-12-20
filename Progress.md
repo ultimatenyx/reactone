@@ -220,6 +220,8 @@ Day 1:
 - `yarn add react-router-dom@4.2.2`
 - Completed Module 9
 
-Day2: Redux 10.8
+Day2: Redux 10.11
 - `yarn add redux@3.7.2`
+- Library to generate uuid - `yarn add uuid@3.1.0`
+- `yarn add babel-plugin-transform-object-rest-spread@6.23.0`
 
