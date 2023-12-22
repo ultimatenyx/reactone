@@ -226,3 +226,5 @@ Day2: Redux
 - `yarn add babel-plugin-transform-object-rest-spread@6.23.0`
 - Completed Module 10
 
+Day 4: React with Redux
+- 11.2
