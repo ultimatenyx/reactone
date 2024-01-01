@@ -227,4 +227,5 @@ Day2: Redux
 - Completed Module 10
 
 Day 4: React with Redux
-- 11.2
+- `yarn add react-redux@5.0.5`
+11.4
