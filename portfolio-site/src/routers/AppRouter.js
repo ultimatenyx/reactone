@@ -1,26 +1,25 @@
 import React from "react";
-import {BrowserRouter, Route, Switch} from 'react-router-dom';
-import HomePage from "../components/HomePage";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import Home from "../components/Home";
 import Header from "../components/Header";
-import NotFoundPage from "../components/NotFoundPage";
-import PortfolioPage from "../components/PortfolioPage";
-import PortfolioDetailsPage from "../components/PortfolioDetailsPage";
-import AboutPage from "../components/AboutPage";
+import Portfolio from "../components/Portfolio";
+import Contact from "../components/Contact";
+import PortfolioDetail from "../components/PortfolioDetail";
 
-const AppRouter = () => (
+const AppRouter = () => {
+  return (
     <BrowserRouter>
-        <div>
-            <Header />
-            <Switch>
-                <Route path="/" component={HomePage} exact={true} />
-                <Route path="/portfolio" component={PortfolioPage} exact={true} />
-                <Route path="/portfolio/:id" component={PortfolioDetailsPage} />
-                <Route path="/about" component={AboutPage} />
-                <Route component={NotFoundPage} />
-            </Switch>
-        </div>
-        
+      <div>
+        <Header />
+        <Switch>
+          <Route path="/" component={Home} exact={true}></Route>
+          <Route path="/portfolio" component={Portfolio} exact={true}></Route>
+          <Route path="/portfolio/:id" component={PortfolioDetail}></Route>
+          <Route path="/contact" component={Contact}></Route>
+        </Switch>
+      </div>
     </BrowserRouter>
-);
+  );
+};
 
 export default AppRouter;

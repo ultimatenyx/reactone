@@ -211,21 +211,37 @@
 - `yarn add react-redux@5.0.5`
 - Provider, Connect
 
+---
 
-----------------------------------------------------
 # Reboot - Starting part 2 again
 
-Day 1: 
+Day 1:
+
 - `yarn run dev-server`
 - `yarn add react-router-dom@4.2.2`
 - Completed Module 9
 
-Day2: Redux 
+Day2: Redux
+
 - `yarn add redux@3.7.2`
 - Library to generate uuid - `yarn add uuid@3.1.0`
 - `yarn add babel-plugin-transform-object-rest-spread@6.23.0`
 - Completed Module 10
 
 Day 4: React with Redux
+
 - `yarn add react-redux@5.0.5`
-11.4
+  11.4
+
+---
+
+# Reboot - Starting part 2 again
+
+Day 1: React router
+
+- `yarn add react-router-dom@4.2.2`
+- Ran into an error when building. Updated node-sass to latest version - 9.0.0
+- `yarn remove node-sass`
+- `yarn add node-sass@9.0.0`
+- `yarn run dev-server`
+- Module 9 completed
