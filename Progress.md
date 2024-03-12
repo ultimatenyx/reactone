@@ -245,3 +245,24 @@ Day 1: React router
 - `yarn add node-sass@9.0.0`
 - `yarn run dev-server`
 - Module 9 completed
+
+Day 2: Redux
+
+- `yarn add redux@3.7.2`
+
+Day 3: Mod 11 - React with redux
+
+- `yarn add uuid@3.1.0`
+- Babel object spread operator
+  `yarn add babel-plugin-transform-object-rest-spread@6.23.0`
+  Update .babelrc. Add transform-object-rest-spread to plugins
+- `yarn add react-redux@5.0.5`
+- `yarn add moment@2.18.1 react-dates@12.7.0 react-addons-shallow-compare@15.6.0`
+
+Mod 12 - Test - Jest
+
+- `yarn add jest@20.0.4`
+- Update package.json
+- `yarn run test` or `yarn test`
+- `yarn test -- --watch
+  12.4
