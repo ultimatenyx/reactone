@@ -267,6 +267,8 @@ Mod 12 - Test - Jest
 - `yarn test -- --watch`
 - `yarn add react-test-renderer@16.0.0`
   Press u to update snapshot
+
   - `yarn add enzyme@3.0.0 enzyme-adapter-react-16@1.0.0 raf@3.3.2`
   - `yarn add enzyme-to-json@3.0.1`
-    12.9
+
+  Mod 13
